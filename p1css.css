@@ -1,6 +1,7 @@
 body {
   background-image: url("cosmo.png");
   color: #3a3737;
+  margin:0px;
 }
 
 .textColor {
@@ -45,6 +46,11 @@ img {
   display: inline-block;
   margin-top: 10px;
   background-color: white;
+}
+.header__xbox{
+  position: relative;
+  top:-300px;
+  z-index:2;
 }
 .header__xbox-block {
   display: inline-block;
@@ -107,9 +113,9 @@ a {
 .name__icon{
 	display: inline-block;
 	margin-left: 20px;
-	margin-top: 20px;
+	
   position: fixed;
-  z-index: 1;
+  z-index: 3;
 
 }
 .name__icon-text{
@@ -119,13 +125,17 @@ a {
 	font-family: 'Righteous', cursive;
 
 }
+.name__icon-font{
+  position: relative;
+  bottom: 20px;
+}
 .clock {
-	font-size: 1em;
+	font-size: 1.5em;
 	position: fixed;
 	right:50px;
 	top:50px;
   color: #c7b8b8;
-  z-index: 1;
+  z-index: 3;
   }
   .header__xbox-block--background1{
     background-image: url(gmail.png);
@@ -137,9 +147,9 @@ a {
     background-image: url(github.png);
   }
   
-  #o-mnie{
+  .o-mnie{
     position: relative;
-    top: 800px;
+    top: 500px;
   }
   .font{
     font-size: large;
@@ -147,7 +157,29 @@ a {
   .o-mnie__content{
     box-sizing: border-box;
     display: block;
-    height: 50px;
+    height: 700px;
     border: 2px solid #3a3737;
-    background-color: #c5aaaa;
+    background-image: url("cosmo1.jpg");
   }
+.motto{
+  position: relative;
+  left:40%;
+  top:0px;
+  
+  
+  width: 500px;
+  z-index:1;
+}
+
+.motto-title{
+  
+  font-size: 60px;
+  font-family: 'Caveat', cursive;
+	color: #e4d8d8;
+}
+.motto-content{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Caveat', cursive;
+	color: #e4d8d8;
+}
