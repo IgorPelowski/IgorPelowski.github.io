@@ -1,7 +1,7 @@
 body {
   background-image: url("cosmo.png");
   color: #3a3737;
-  margin:0px;
+  margin: 0px;
 }
 
 .textColor {
@@ -47,23 +47,22 @@ img {
   margin-top: 10px;
   background-color: white;
 }
-.header__xbox{
+.header__xbox {
   position: relative;
-  top:-300px;
-  z-index:2;
+  top: -300px;
+  z-index: 2;
 }
 .header__xbox-block {
   display: inline-block;
   margin-left: 20px;
   position: relative;
-  top:430px;
+  top: 430px;
   width: 135px;
   height: 135px;
   border: 2px solid #3a3737;
   background-image: url(g2.png);
   border-radius: 2%;
 }
-
 
 .header__xbox-block:hover {
   transform: scale(1.1);
@@ -79,107 +78,130 @@ a {
   background-image: url(suit.png);
   display: inline-block;
   position: relative;
-  top:150px;
+  top: 150px;
   margin-left: 20px;
   border-radius: 2%;
 }
 .header__xbox-block--main:hover {
   transform: scale(1.1);
 }
-.header__xbox-block--bottom{
-	position: relative;
-	top:200px;
-	display: inline-block;
-	margin-left: 20px;
-	height: 150px;
-	width: 300px;
-	background-image: url(g2.png);
-	
+.header__xbox-block--bottom {
+  position: relative;
+  top: 200px;
+  display: inline-block;
+  margin-left: 20px;
+  height: 150px;
+  width: 300px;
+  background-image: url(g2.png);
 }
 .header__xbox-block--bottom:hover {
-	transform: scale(1.1);
+  transform: scale(1.1);
 }
-.header__xbox-block--left{
-	margin-left:100px;
+.header__xbox-block--left {
+  margin-left: 100px;
 }
-.img{
-	width: 50px;
-	height: 50px;
-	margin-right: 5px;
-	border:3px solid #3a3737;
-	border-radius: 50%;
-	padding: 0%;
+.img {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  border: 3px solid #3a3737;
+  border-radius: 50%;
+  padding: 0%;
 }
-.name__icon{
-	display: inline-block;
-	margin-left: 20px;
-	
+.name__icon {
+  display: inline-block;
+  margin-left: 20px;
+
   position: fixed;
   z-index: 3;
-
 }
-.name__icon-text{
-	position: relative;
-	bottom:40px;
-	color: #e4d8d8;
-	font-family: 'Righteous', cursive;
-
+.name__icon-text {
+  position: relative;
+  bottom: 40px;
+  color: #e4d8d8;
+  font-family: "Righteous", cursive;
+  padding-top: 10px;
+  text-decoration: none;
 }
-.name__icon-font{
+.name__icon-font {
   position: relative;
   bottom: 20px;
 }
-.clock {
-	font-size: 1.5em;
-	position: fixed;
-	right:50px;
-	top:50px;
-  color: #c7b8b8;
-  z-index: 3;
-  }
-  .header__xbox-block--background1{
-    background-image: url(gmail.png);
-  }
-  .header__xbox-block--background2{
-    background-image: url(facebook.png);
-  }
-  .header__xbox-block--background3{
-    background-image: url(github.png);
-  }
-  
-  .o-mnie{
-    position: relative;
-    top: 500px;
-  }
-  .font{
-    font-size: large;
-  }
-  .o-mnie__content{
-    box-sizing: border-box;
-    display: block;
-    height: 700px;
-    border: 2px solid #3a3737;
-    background-image: url("cosmo1.jpg");
-  }
-.motto{
-  position: relative;
-  left:40%;
-  top:0px;
-  
-  
-  width: 500px;
-  z-index:1;
+.main__menu-class {
+  padding-left: 10px;
+  border: 2px solid #3a3737;
+  text-align: center;
 }
 
-.motto-title{
-  
-  font-size: 60px;
-  font-family: 'Caveat', cursive;
-	color: #e4d8d8;
+.project {
+  background-image: url(project.png);
 }
-.motto-content{
+.exp {
+  background-image: url(exp.png);
+}
+.clock {
+  font-size: 1.5em;
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  color: #c7b8b8;
+  z-index: 3;
+}
+.header__xbox-block--background1 {
+  background-image: url(gmail.png);
+}
+.header__xbox-block--background2 {
+  background-image: url(facebook.png);
+}
+.header__xbox-block--background3 {
+  background-image: url(github.png);
+}
+.omnie {
+  background-image: url("aboutme.png");
+}
+.o-mnie {
+  position: relative;
+  top: 500px;
+}
+.font {
+  font-size: large;
+}
+.o-mnie__content {
+  box-sizing: border-box;
+  display: block;
+  height: 700px;
+  border: 2px solid #3a3737;
+  background-image: url("");
+  color: #e4d8d8;
+  font-family: "Righteous", cursive;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  
+}
+.motto {
+  position: relative;
+  left: 40%;
+  top: 0px;
+
+  width: 500px;
+  z-index: 1;
+}
+
+.motto-title {
+  font-size: 60px;
+  font-family: "Caveat", cursive;
+  color: #e4d8d8;
+}
+.motto-content {
   text-align: center;
   font-size: 35px;
-  font-family: 'Caveat', cursive;
-	color: #e4d8d8;
+  font-family: "Caveat", cursive;
+  color: #e4d8d8;
+}
+
+
+.margin__omnie{
+  padding-top: 10%;
 }
